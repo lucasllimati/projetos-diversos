@@ -16,12 +16,14 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     height: 100%;
-    width: 240px;
-    background: #11101d;
+    width: 78px;
+    background: #11101D;
     padding: 6px 14px;
+    z-index: 99;
+    transition: all 0.5s ease;
 }
 
 .sidebar .logo_content .logo{
@@ -72,4 +74,19 @@ body {
     color: #fff;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.sidebar ul li a:houver {
+    color: #11101d;
+    background: rgb(238, 3, 3);
+}
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
 }
