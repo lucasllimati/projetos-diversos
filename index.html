@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style/index.css">
+    <!-- Boxiicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Home Page - EBEC</title>
 </head>
+
 <body>
-    <nav id="menu">
+    <!-- <nav id="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Notícias</a></li>
@@ -16,8 +22,27 @@
             <li><a href="#">Ramais</a></li>
             <li><a href="#">Setores</a></li>
             <li><a href="#">Contato</a></li>
+            <li><a href="#">Sair</a></li>
         </ul>
-    </nav>
+    </nav> -->
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-c-plus-lus'></i>
+                <div class="logo_name">Intranet EBEC</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        
+        <ul class="nav_list">
+            <a href="#">
+                <i class='bx bx-grid-alt' ></i>
+                <span class="links_name">Dashboard</span>
+            </a>
+            <!-- <span class="tooltip">Dashboard</span> -->
+        </ul>
+    </div>
+
 
     <div>
         <h1>Noticias</h1>
@@ -25,6 +50,7 @@
     <div>
         <h1>Aniversáriantes do mês</h1>
     </div>
-    
+
 </body>
+
 </html>
