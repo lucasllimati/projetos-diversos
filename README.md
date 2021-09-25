@@ -4,7 +4,10 @@
  ### Menu
  pegar exeplos
 - [ ] Home
-
+- [ ] Aniversáriantes
+- [ ] Ramais
+- [ ] Setores
+- [ ] Contato
 
  ### Tela de login
 - [ ] Login
