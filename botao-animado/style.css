@@ -56,3 +56,13 @@
 .efeito-2:hover:before {
     height: 64px;
 }
+
+.efeito-3 {
+    background-color: #009C3D;
+}
+
+.efeito-3:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #009C3D;
+    box-shadow: inset 0 0 0 3px #009C3D;
+}
