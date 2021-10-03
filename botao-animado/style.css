@@ -91,3 +91,11 @@
 .efeito-4:hover {
     animation: bounce 1s;
 }
+
+.efeito-5 {
+    background: #DB3A34;
+}
+
+.efeito-5:hover {
+    transform: skew(-10deg);
+}
