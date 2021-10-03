@@ -99,3 +99,27 @@
 .efeito-5:hover {
     transform: skew(-10deg);
 }
+
+.efeito-6 {
+    background: #376693;
+    transform-style: preserve-3d;
+}
+
+.efeito-6:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background: #3A9999;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Mudou!';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito-6:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%)
+}
