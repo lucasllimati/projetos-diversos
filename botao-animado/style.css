@@ -3,11 +3,11 @@
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-    40% {
+    48% {
         -webkit-transform: translateY(-20);
         transform: translateY(-20);
     }
-    60% {
+    88% {
         -webkit-transform: translateY(-10);
         transform: translateY(-10);
     }
@@ -80,4 +80,12 @@
     background: rgba(0, 0, 0, 0);
     color: #009C3D;
     box-shadow: inset 0 0 0 3px #009C3D;
+}
+
+.efeito-4 {
+    background: #F18F01;
+}
+
+.efeito-4:hover {
+    animation: bounce 1s;
 }
