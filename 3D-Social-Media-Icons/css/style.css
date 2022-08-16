@@ -20,6 +20,12 @@ body{
   width: var(--box-size);
   position: relative;
   transform-style: preserve-3d;
+  transform: translateZ(calc(var(--box-size) / -2));
+  pointer-events: none;
+  transition: transform 0.5s ease;
+}
+.social-btns a:hover .box{
+  transform: translateZ(calc(var(--box-size) / -2)) rotateX(90deg);
 }
 .social-btns .face{
   position: absolute;
@@ -34,8 +40,11 @@ body{
 }
 .social-btns .front{
   background-color: hsl(0, 0%, 97%);
-  color: hsl(240, 6%, 16%)
+  color: hsl(240, 6%, 16%);
+  transform: translateZ(calc(var(--box-size) / 2));
 }
 .social-btns .bottom{
-  display: none;
+  background-color: hsl(332, 75%, 55%);
+  color: hsl(0, 0%, 97%);
+  transform: translateY(50%) rotateX(-90deg);
 }
