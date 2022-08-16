@@ -10,7 +10,6 @@ body{
   text-decoration: none;
   display: inline-block;
   margin: 0 10px;
-  outline: 1px solid blue;
   perspective: 200px;
 }
 .social-btns .box{
@@ -36,7 +35,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.5;
 }
 .social-btns .front{
   background-color: hsl(0, 0%, 97%);
