@@ -6,3 +6,36 @@ body{
   justify-content: center;
   background-color: hsl(240, 6%, 16%);
 }
+.social-btns a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  outline: 1px solid blue;
+  perspective: 200px;
+}
+.social-btns .box{
+  --box-size: 50px;
+  display: block;
+  height: var(--box-size);
+  width: var(--box-size);
+  position: relative;
+  transform-style: preserve-3d;
+}
+.social-btns .face{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+.social-btns .front{
+  background-color: hsl(0, 0%, 97%);
+  color: hsl(240, 6%, 16%)
+}
+.social-btns .bottom{
+  display: none;
+}
