@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto";
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden; /*Retirar scroll lateral da tela*/
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282828;
+}
+
+.hora {
+  color: white;
+  font-size: 150px;
+  font-weight: 300;
+
+  display: flex;
+  justify-content: center;
+}
+.data {
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+
+  display: flex;
+  justify-content: center;
+}
