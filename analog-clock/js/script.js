@@ -18,5 +18,16 @@ const currentTime = () => {
   clockTime.innerText = time;
 };
 
+const dateFormatter = document.querySelector(".data");
+const date = new Date;
+const formatter = Intl.DateTimeFormat("pt-BR", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+
+dateFormatter.innerHTML = formatter.format(date);
+
 currentTime();
 setInterval(currentTime, 1000);
