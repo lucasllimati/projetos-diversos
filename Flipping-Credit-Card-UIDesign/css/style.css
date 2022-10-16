@@ -16,6 +16,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 section::before {
@@ -48,8 +49,47 @@ section::after {
 .container .card {
   height: 100%;
   width: 100%;
+  padding: 25px;
   border-radius: 25px;
   backdrop-filter: blur(25px);
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  border: rgba(255, 255, 255, 0.1);
+}
+
+.front-face header,
+.front-face .logo {
+  display: flex;
+  align-items: center;
+}
+
+.front-face header {
+  justify-content: space-between;
+  margin: solid 5px red;
+}
+
+.front-face .logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+
+h5 {
+  front-size: 16px;
+  front weight: 400;
+}
+
+.front-face .chip {
+  width: 50px;
+}
+
+.front-face .card-details {
+  display: flex;
+  margin-top: 40px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+h6 {
+  font-size: 10px;
+  font-weigth: 400;
 }
