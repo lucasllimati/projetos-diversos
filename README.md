@@ -10,6 +10,7 @@
 - [analog-clock](https://lucasllimati.github.io/projetos-diversos/analog-clock)
 - [Email-&-Password-Validation](https://lucasllimati.github.io/projetos-diversos/Email-&-Password-Validation)
 - [Email-Validation](https://lucasllimati.github.io/projetos-diversos/Email-Validation)
+- [Flipping-Credit-Card-UIDesign](https://lucasllimati.github.io/projetos-diversos/Flipping-Credit-Card-UIDesign)
 - [Login-&-Signup-Form](https://lucasllimati.github.io/projetos-diversos/Login-&-Signup-Form)
 - [Responsive-Personal-Portfolio-Website](https://lucasllimati.github.io/projetos-diversos/Responsive-Personal-Portfolio-Website)
 - [Sidebar-Menu](https://lucasllimati.github.io/projetos-diversos/Sidebar-Menu)
